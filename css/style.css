@@ -64,7 +64,7 @@ body {
     font-size: 40px;
 }
 .about__background{
-    background-image: url(img/about-background.jpg);
+    background-image: url(../img/about-background.jpg);
     background-size: cover;
     width: 100%;
     height: 800px;
@@ -88,7 +88,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-    .ssc__tuatara{
+.ssc__tuatara{
     width: 80%;
     height: 80%;
-    }
+}
