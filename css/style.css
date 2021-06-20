@@ -108,13 +108,13 @@ body {
     background-attachment: fixed;
 }
 .about__title{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 60px;
 }
 .about__title__text{
-    color: white;
     max-width: 800px;
     font-size: 20px;
     font-weight: 700;   
