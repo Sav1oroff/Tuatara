@@ -1,0 +1,47 @@
+@media screen and (max-width: 1312px) {
+    .aerodynamics__tuatara{
+        margin-top: -57px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .ssc__tuatara{
+        width: 100%;
+        height: 100%;
+    }
+    .card-dark{
+    margin-bottom: 20px;
+    }
+    .card-text{
+        margin-bottom:4px;
+        font-size: 30px
+    }
+    .card-title{
+        margin-bottom: 10xp;
+    }
+    .card-3{
+        margin-bottom: 14px
+    }
+    .card-3-title{
+        margin-bottom: 20px;
+    }
+    .card-3-text{
+        margin-bottom: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 771px){
+    .card-2{
+        margin-top: 26px;
+    }
+    .card-3-subtitle{
+        margin-top: 1px;
+    }
+    .card-3{
+        margin-bottom: 15px;
+    }
+    .card-3-text{
+        margin-bottom: 10px;
+    }
+  }
