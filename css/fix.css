@@ -45,3 +45,20 @@
         margin-bottom: 10px;
     }
   }
+
+
+
+  @media screen and (max-width: 500px) {
+    .promo__title{
+        font-size: 30px;
+    }
+    .promo__subtitle{
+        font-size: 16px;
+    }
+    .ssc__tuatara__promo{
+        margin-top: -40px;
+    }
+    .aerodynamics__subtitle{
+        font-size: 17px;
+    }
+}
