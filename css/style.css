@@ -132,6 +132,9 @@ body {
 .aerodynamics__tuatara{
     margin-top: -65px;
 }
+.elegance__Logo{
+    width: 60%;
+}
 
 .performance{
     display: flex;
@@ -156,13 +159,15 @@ body {
     margin-top: -50px;
     width: 90%;
 }
-.promo__title, .aerodynamics__title{
+.promo__title, .aerodynamics__title, .elegance__title{
     font-weight: 700;
     font-size: 40px;
     padding-top: 60px;
+    color: white;
+}
+.elegance__title{
 }
 .aerodynamics__title{
-    color: white;
 }
 .promo__subtitle_text, .aerodynamics__subtitle-text{
     display: flex;
@@ -176,7 +181,7 @@ body {
     align-items: center;
     width: 900px;
     padding-bottom: 30px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     color: rgb(145, 145, 145);
     max-width: 90%;
@@ -190,9 +195,12 @@ body {
     font-weight: 700;
     max-width: 90%;
 }
-.card-dark{
+.card-dark, .card-dark-elegance{
     font-weight: 700;
     border: 3px solid #333;
+}
+.card-dark-elegance{
+
 }
 section {
     padding-top: 40px;
@@ -241,6 +249,9 @@ section {
     text-align: center;
     justify-content: center;
 }
+.card-elegance{
+    
+}
 .card-title-aerodynamics{
     color: rgb(145, 145, 145);
     font-size: 23px;
@@ -256,4 +267,24 @@ section {
 .card-text-subtitle-aerodynamics{
     color: rgb(145, 145, 145);
     font-size: 16px;
+}
+
+
+.elegance{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    /* background: url(../promo-image.jpg); */
+    background-color: #1f1f1f;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
 }

@@ -1,3 +1,15 @@
+
+
+
+@media screen and (max-width: 1519px) {
+        .card-title-aerodynamics{
+            font-size: 19px;
+        }
+        .card-subtitle-aerodynamics{
+            font-size: 15px;
+        }
+}
+
 @media screen and (max-width: 1312px) {
     .aerodynamics__tuatara{
         margin-top: -57px;
@@ -27,6 +39,11 @@
     }
     .card-3-text{
         margin-bottom: 20px;
+    }
+    .elegance-card{
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
     }
   }
 
@@ -60,5 +77,8 @@
     }
     .aerodynamics__subtitle{
         font-size: 17px;
+    }
+    .elegance__title{
+        font-size: 20px;
     }
 }
